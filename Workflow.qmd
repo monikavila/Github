@@ -1,0 +1,67 @@
+# Workflow
+
+## Existing project
+
+1.  Clone the remote Git repository on your local computer.
+
+2.  Create a new branch to make changes in the targeted file. This is done to avoid to make direct changes in the main branch that contains the deployable code.
+
+3.  Add the modified files to a staging area.
+
+4.  Commit the modified files to the new branch.
+
+5.  Pushes the changes in the branch to the remote repository (Push commits to the remote repository).
+
+6.  To merge the new branch to the main branch in the remote repository, creates pull request.
+
+7.  The maintainer reviews the pull request and merges it with the main branch.
+
+8.  Maintainer creates Release1 branch
+
+9.  Users pull changes in Release1 to local repositories
+
+10. Users perform testing locally
+
+11. Push commits to remote repository
+
+12. Create pull request
+
+13. Maintainer aproves pull requests and merge changes
+
+## New project: you start from scratch
+
+### Option 1
+
+1.  In the terminal, go to the desired directory where you want to host your local repository using `cd`.
+
+2.  Initialize a local Git repository `git init` . This allows Git to track changes.
+
+3.  If there are files you do not want to keep track of, create a .gitignore file for your repository using `touch .gitignore` . You can modify this file on the terminal with `nano .gitignore` . This step is important.
+
+4.  Move selected files to an Staging Area using `git add .`
+
+5.  Make an initial commit `git commit -m "message"` .
+
+6.  Create a blank remote repository on Github.
+
+7.  Link local repository to the remote repository `git remote add origin URL_github_repository` .
+
+8.  **Push** files from local repository to the remote repository `git push --all origin` .
+
+9.  Other users can now clone the remote repository.
+
+10. Others users start working on the repository by creating branches
+
+### Option 2 (My idea)
+
+1.  Initialize a remote Git repository
+
+2.  Clone the remote Git repository
+
+3.  Select files that you want to keep tracked
+
+4.  Move selected files to an Staging Area
+
+5.  Make an initial commit
+
+6.  Push files from local repository to the remote repository

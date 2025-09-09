@@ -1,0 +1,16 @@
+# Git with RStudio
+
+1.  Check the initial configuration of Git in your computer. -Terminal: `git config --list`\
+
+-   R: `usethis::git_sitrep()`.
+    -   You will need to set your user name and provide a token. The token is obtained from GitHub \> Settings \> Developer settings \> Personal access tokens \> Tokens (Classic) \> Generate new token.
+    -   You can also use: `usethis::create_github_token()`, create the token in the website that opens and then save the token using `gitcreds::gitcreds_set()`.
+
+2.  Create a new project in RStudio.
+3.  To initialize a git repository, we use `usethis::use_git()`
+4.  Add files to the repository.
+5.  Use the Git pane, there we first click Add,
+6.  Then Commit by opening the Commit window, write the commit message. You can verify the changes there.Then click Commit. 
+7.  Now, we initialize a GitHub repository with `use_this::use_github()`.  This will create a GitHub repository. 
+8. Changes that have been modified in Github, we use Pull in the Git pane. 
+

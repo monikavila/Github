@@ -1,0 +1,78 @@
+---
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+# Forking and cloning
+
+## Cloning
+
+1.  Definition
+
+-   Copy of the repository in your local machine
+-   Cloned copies can sync between locations
+
+2.  How to clone using command line? `git clone URL`
+3.  Syncing local changes
+
+-   Add files to the staging area `git add files`
+
+-   Commit changes `git commit -m message`
+
+-   Transfer changes to the remote repository `git push`
+
+-   Transfer changes from the remote repo `git fetch`
+
+-   Transfer changes from the remote repo to the local repo and merge
+    them to a branch `git pull`
+
+-   Upstream: refers to the original work
+
+-   Origin refers to your fork
+
+![](images/Screenshot%202025-07-02%20at%2002.30.57-01.png)
+
+Source: IBM coursera course on Getting started with Git and Github
+
+## Forking
+
+-   Modifies or extends a project without affecting the original project
+-   Submit changes to the original repo
+-   Independently make changes to a project, by submitting a pull
+    request
+-   Keep a copy of the license
+
+It can be used to:
+
+-   Work on a project independently
+-   Use a repository as the base for a new project
+
+We can also use RStudio following
+https://happygitwithr.com/fork-and-clone.html\
+
+### Keep syncing a Fork of a project
+
+1.  Create a local clone of the project `git clone URL`
+2.  Configure GIT to sync the fork (To understand better)
+
+-   Open a terminal and change to the directory containing the local
+    clone
+-   Access the remote repository `git remote -v`
+-   Type `git remote add upstream <clone directory>`
+
+### Fork workflow
+
+1.  Fork the "Original" Github repo on github webpage
+2.  Clone the new Origin repo to create a local repo
+3.  Keep syncked the fork (set up a remote for the original )
+4.  Make changes in your local repo and then push them to the Origin
+5.  Make a pull request to send changes to the Original Forked repo
+
+A graph of the process is given below:
+
+![](images/Screenshot%202025-07-02%20at%2002.31.17.png)
+
+Source: IBM coursera course on Getting started with Git and Github
+
+https://srivastavayushmaan1347.medium.com/how-to-fork-a-repository-make-changes-and-submit-a-pull-request-on-github-c05b0462403d

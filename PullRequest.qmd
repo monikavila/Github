@@ -1,0 +1,32 @@
+# Pull request
+
+-   A pull request makes available the committed changes available to others for review and use.
+-   Can follow any commit.
+-   Can target any user.
+-   There is always a log file of the pull that registers the user who approved the pull.
+-   It allows to merge a new branch with the main one.
+
+To make a pull request: - On command line: -
+
+-   On Github:
+    -   Go to pull request
+
+        ![](images/clipboard-1901992114.png)
+
+    -   Select new pull request
+
+        ![](images/Screenshot%202025-08-29%20at%2021.39.59-01.png)
+
+    -   Select the new branch from the compare box
+
+        ![](images/clipboard-4006445331.png)Source: IBM Git coursera course
+
+    -   Confirm that the changes are the ones that you want to asses
+
+    -   Add title and description of request
+
+    -   Click Create pull request
+
+        ![](images/clipboard-3064991001.png)
+-   Then code is reviewed and approved
+-   Approved code in merged in the main branch

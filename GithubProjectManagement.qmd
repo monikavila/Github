@@ -1,0 +1,33 @@
+# Github projects
+
+The roles are:
+
+1.  Developer
+
+    -   Uses the following commands:
+
+    1.  git clone
+
+    2.  git pull and git fetch
+
+    3.  git push
+
+2.  Integrator
+
+    Uses the commands:
+
+    1.  git clone
+
+    2.  git pull
+
+    3.  git merge
+
+3.  Administrator
+
+    -   In charge of:
+
+        -   Managing communities
+
+        -   Managing servers
+
+            s

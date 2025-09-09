@@ -1,0 +1,11 @@
+# Cloning
+
+Cloning allows you to copy an existing remote repository in your local computer. This can be done by following the process:
+
+1.  In Github, go to the repository of interest and click Code, and copy the HTTPS link.
+
+    ![](images/clipboard-1635840347.png)
+
+2.  On the terminal, go to the desired directory where you want to host the cloned repository.
+
+    1.  `git clone "the copied HTTPS"`

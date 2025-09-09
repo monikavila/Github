@@ -1,0 +1,30 @@
+# Git Branching Workflow
+
+1. Clone the repository `git clone URL`
+
+2. Create a new branch, you can use `git branch BRANCH_NAME`.  But you can better use `git checkout -b BRANC_NAME`, this will create and change automatially to the new branch. 
+
+3. Switch to the new branch using `git checkout BRANCH_NAME`
+
+4. Modify the targeted file
+
+5. Check modifications using `git status`
+
+6. Stage changes using `git add FILE_NAME`
+
+7.  Commit changes using `git commit -m "Message"`
+
+7.5 Push the changes to the target branch `git push -u origin Target_branch_name`.  This step is important to push the branch that was created to make the changes to GitHub. 
+
+
+8. Switch back to the main branch using `git checkout main`
+
+9. Merge branches using `git merge BRANCH_FORCHANGES_NAME`
+
+10. Make the changes accessible to the remote repository using `git push -u origin main`
+
+11.  Check if changes have been done using `git status`
+
+12. Now you can go to GitHub and check that you have three branches. 
+
+13.  In GitHub you can ask for a pull request

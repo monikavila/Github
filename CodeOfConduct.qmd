@@ -1,0 +1,9 @@
+---
+title: "CodeOfCondut"
+---
+
+To create a Code of Condut:
+
+1. Add a file called CODE_OF_CONDUCT
+2. Choose a code of conduct template
+3. Choose Contributor covenant 

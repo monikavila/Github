@@ -1,0 +1,39 @@
+project:
+  type: book
+
+book:
+  title: "Github"
+  author: "Monika Avila Marquez"
+  date: "6/15/2025"
+  chapters:
+    - index.qmd
+    - GitGithub.qmd
+    - ConfigurarGit.qmd
+    - GitBranches.qmd
+    - FileChanges.qmd
+    - Commit.qmd
+    - PullRequest.qmd
+    - MergePullRequest.qmd
+    - part: Workflow.qmd
+      chapters:   
+      - WorkflowWithCommands.qmd
+      - BranchingWorkflow.qmd
+      - Cloning.qmd
+      - Commands.qmd
+      - GitRevert.qmd
+    - ForkClone.qmd
+    - GithubProjectManagement.qmd
+    - Readme.qmd
+    - GitHubCopilot.qmd
+    
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+

@@ -1,0 +1,9 @@
+# Git revert
+
+To revert a commit:
+
+1.  Create a new branch `git checkout -b BRANCH_NAME`
+2.  Revert commit `git revert BRANCH_NAME`
+3.  Push branch to GitHub `git push - -u origin BRANCH_NAME` You will need a personal access token that is generated in Settings \> Developer settings \> Personal access tokens \> Tokens (classic) \> Generate new token
+4.  Go to GitHub, there you will see the new branch.\
+5.  There you can create a pull request.

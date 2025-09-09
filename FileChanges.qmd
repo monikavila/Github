@@ -1,0 +1,25 @@
+# Changes to code
+
+To change code or a file, one needs to:
+
+1.  Go to the branch used for development. Important: not the main branch containing the deployed code!
+
+-   In the command line:
+
+    -   `cd "name of local git repository"`
+    -   `git checkout "name of branch"`
+    -   `nano "file name to change"`
+
+-   In Github:
+
+    -   Choose the branch for development:
+
+    ![](images/clipboard-2617501512.png)
+
+    -   Select file
+
+    -   Click pencil icon
+
+        ![](images/clipboard-572814125.png)
+
+    -   Make changes to the file.

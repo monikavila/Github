@@ -1,0 +1,21 @@
+# Commands
+
+## Line commands
+
+Basic line and Linux commands are:
+
+-   `mkdir` : create a new directory
+-   `cd` : change of working directory
+-   `touch` : create a file
+-   `nano file_name` : to modify a file on the terminal
+
+## Git commands
+
+-   `git add .`: adds all files to the staging area
+-   `git add file_ _name` : adds a specific file to the staging area
+-   `git commit -m "message"`
+-   `git log`: shows history of commits
+-   `git branch branch_name` : creates a new branch
+-   `git checkout branch_name`: switches from branch to branch
+-   `git status`: to see the status of changes
+-   `git merge`: allows to merge the new branch to the main branch

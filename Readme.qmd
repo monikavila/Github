@@ -1,0 +1,7 @@
+# README file 
+
+To improve README files we can see the following material: 
+
+- https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-readmes
+- https://makeareadme.com/
+- https://github.com/matiassingers/awesome-readme

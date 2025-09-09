@@ -1,0 +1,65 @@
+# Workflow using commands
+
+## New Project
+
+1.  Create a local directory using `mkdir`
+
+2.  Navigate to the directory `cd`
+
+3.  Initialize a local repository using `git init` in the target local directory
+
+4.  Add the files that you want to control version to the local repository
+
+5.  Add the files to the staging are using `git add name_files`
+
+6.  Commit the files to the main branch using `git commit -m "message describing the commit"`
+
+7.  Review the commit history using `git log`
+
+8.  To make changes without causing problems in the main branch, create a new branch using `git branch name_child_branch`
+
+9.  To switch to the new branch use `git checkout name_child_branch`
+
+10. Make changes on the targeted file in the new branch.
+
+11. Add the changed files to the staging area using `git add name_file_to_change` .
+
+12. Commit the changes using `git commit -m "commit_message"` . Here it is important to specify in the commit message that changes are done in the name of the branch
+
+13. Verify the commit using `commit log`
+
+14. To see the status of changes `commit status`
+
+15. Push commit `git push` ???
+
+16. Merge the changes using `git merge name_child_branch`
+
+17. Delete the child branch using `git branch -d name_child_branch`
+
+ ![](images/Screenshot%202025-07-02%20at%2002.27.28-03.png)
+
+Source: IBM coursera course on Introduction to Git and Github
+
+## Existing Project
+
+1.  Clone the remote repository using `git clone url_direction`
+
+2.  Change to the directory that was cloned using `cd`
+
+3.  Create a new branch to work on a target change `git branch name_new_branch`
+
+4.  Change of branch using `git checkout name_branch`
+
+5.  Then go to the file to modify. Modify it
+
+6.  Add changes to the staging are using `git add filename`
+
+7.  Commit changes using `git commit -m message`
+
+8.  Merge branches
+
+9.  Switch back to main `git checkout main`
+
+10. Merge changes using `git merge childbranch`
+
+11. Make changes accessible in the remote repository `git push -u origin main`

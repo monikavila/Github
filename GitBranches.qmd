@@ -1,0 +1,51 @@
+# Git branches
+
+Git branches store all files in Github.
+
+## Main branch
+
+The main branch stores the deployable code.
+
+## Other branches
+
+When you plan to change the code:
+
+1.  Create a new branch:
+
+-   Command line: in the local repository of interest (previously you have changed to the local repository using cd and make sure that the local repository is a git repository which means that you have used `git init` in the directory of interest), use `git checkout -b "name of branch"`. This new branch is a exact copy of the original branch.
+-   Github: in the repository of interest, go to tab "master", and fill in the space that indicates "Find or create a branch"
+
+![](images/Screenshot%202025-08-29%20at%2020.47.07.png)
+
+2.  Work on the new branch. Once the new code is finished, we have two branches: the original and the copy.
+
+3.  When both branches are ready to join, the code of each branch is called the tip of each branch.
+
+4.  Merge the branches: the two tips of the branch are merged into a new tip that belongs to the original branch that contains the deployable branch.
+
+
+
+![Image source: IBM coursera course](images/Screenshot%202025-08-29%20at%2021.03.38.png)
+# Git Branching Workflow
+
+1. Clone the repository `git clone URL`
+
+2. Create branch `git branch BRANCH_NAME`
+
+3. Switch to the new branch using `git checkout BRANCH_NAME`
+
+4. Modify the targeted file
+
+5. Check modifications using `git status`
+
+6. Stage changes using `git add FILE_NAME`
+
+7.  Commit changes using `git commit -m "Message"`
+
+8. Switch back to the main branch using `git checkout main`
+
+9. Merge branches using `git merge`
+
+10. Make the changes accessible to the remote repository using `git push -u origin main`
+
+11.  Check if changes have been done using `git status`

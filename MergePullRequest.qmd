@@ -1,0 +1,14 @@
+# Merge a pull request
+
+To merge a committed code into the main branch:
+
+- On Github:
+
+  -   Click Merge Pull Request
+
+  -   Click Confirm merge
+
+  -   Delete obsolete branch
+  
+
+- On command line: 

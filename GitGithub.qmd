@@ -1,0 +1,32 @@
+# Git and Github
+
+## Version control
+
+Version control allows to control any changes done to a code. There are different types of version control systems, but the most useful ones are the distributed ones.
+
+## Git
+
+What is Git:
+
+-   It is an free and open-source software distributed under the GNU license.
+-   It is a distributed version control system (DVCS): this means that any user can have a copy of a project, make changes locally and then sync changes with the main remote project.
+
+What does it do: - It supports branching strategy.
+
+Brackground: was developed in 2005 to satisfy Linux needs of version-control.
+
+## Github
+
+It is a host service for Git repositories.
+
+## Important terms to learn
+
+-   SSH (secure shell) protocol: method to secure remote login.
+-   Repository: contains the project folders that are set uo for version control.
+-   Fork: copy of a repository
+-   Pull request: is a request to someone to review and approve your changes before they become final.
+-   Working directory: contains files associated to a git repository
+-   Commit: a snapshot of the current state of a project
+-   Branch: is a separate line of development that allows you to work independently on your changes.
+-   Merging: combines changes from one branch to another.
+-   Cloning: creates a local copy of a remote git repository

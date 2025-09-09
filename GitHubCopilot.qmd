@@ -1,0 +1,18 @@
+# GitHub Copilot
+
+It is an AI-powered tool that helps writing code.
+
+The features are:
+
+1. Code auto-completion
+2. Real time suggestions of code
+
+Workflow with GitHub Copilot: 
+
+1. Activate GitHub Copilot.
+
+2. Start writing code and you will get suggestions. 
+
+3.  Debug code
+
+4. Follow usual process of Git and GitHub.

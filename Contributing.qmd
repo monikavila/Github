@@ -1,0 +1,10 @@
+# Contribution guidelines
+
+We can add a contributing guidelines file by adding a .md file.
+
+Examples:
+
+1.  https://github.com/Call-for-Code-for-Racial-Justice/Legit-Info/blob/main/CONTRIBUTING.md
+2.  https://github.com/openeew/openeew/blob/master/CONTRIBUTING.md
+3.  https://github.com/atom/atom/blob/master/CONTRIBUTING.md
+4.  https://github.com/rails/rails/blob/main/CONTRIBUTING.md
