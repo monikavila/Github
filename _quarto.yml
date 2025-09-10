@@ -23,7 +23,7 @@ book:
       - GitRevert.qmd
     - ForkClone.qmd
     - GithubProjectManagement.qmd
-    - Readme.qmd
+    - FileReadme.qmd
     - GitHubCopilot.qmd
     
 

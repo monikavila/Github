@@ -1,8 +1,3 @@
----
-editor: 
-  markdown: 
-    wrap: 72
----
 
 # Forking and cloning
 
@@ -37,7 +32,8 @@ Source: IBM coursera course on Getting started with Git and Github
 
 ## Forking
 
--   Modifies or extends a project without affecting the original project
+-   Creates a copy of a remote repository in GitHub.\
+    Modifies or extends a project without affecting the original project
 -   Submit changes to the original repo
 -   Independently make changes to a project, by submitting a pull
     request
