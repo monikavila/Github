@@ -1,6 +1,6 @@
 # Git branches
 
-Git branches store all files in Github.
+Git branches store all files in Github. It can be thought as parallel copy of a repository.
 
 ## Main branch
 
@@ -47,13 +47,12 @@ When you plan to change the code:
 
 11. Check if changes have been done using `git status`
 
-# Main branch 
+# Main branch
 
-In RStudio, we might get instead of main master. 
-To change it:
+In RStudio, we might get instead of main master. To change it:
 
 `usethis::git_default_branch_rename(from = "master", to = "main")`
 
-To configure it as default: 
+To configure it as default:
 
 `usethis::git_default_branch_configure(name ="main")`

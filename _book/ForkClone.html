@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>3&nbsp; Forking and cloning – Github</title>
+<title>13&nbsp; Forking and cloning – Github</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,7 +31,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./GithubProjectManagement.html" rel="next">
-<link href="./Commands.html" rel="prev">
+<link href="./GitRevert.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./ForkClone.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Forking and cloning</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./ForkClone.html"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Forking and cloning</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -114,26 +114,109 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Workflow.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Workflow</span></span></a>
+  <a href="./GitGithub.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Git and Github</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Commands.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Workflow using commands</span></span></a>
+  <a href="./ConfigurarGit.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Configurar Git</span></span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./GitBranches.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Git branches</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./FileChanges.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Changes to code</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Commit.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Git commit</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./PullRequest.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Pull request</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./MergePullRequest.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Merge a pull request</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./Workflow.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Workflow</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./WorkflowWithCommands.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Workflow using commands</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./BranchingWorkflow.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Git Branching Workflow</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Cloning.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Cloning</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Commands.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Commands</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./GitRevert.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Git revert</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./ForkClone.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Forking and cloning</span></span></a>
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Forking and cloning</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./GithubProjectManagement.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Github projects</span></span></a>
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Github projects</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./FileReadme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">README file</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./GitHubCopilot.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">GitHub Copilot</span></span></a>
   </div>
 </li>
     </ul>
@@ -146,11 +229,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#cloning" id="toc-cloning" class="nav-link active" data-scroll-target="#cloning"><span class="header-section-number">3.1</span> Cloning</a></li>
-  <li><a href="#forking" id="toc-forking" class="nav-link" data-scroll-target="#forking"><span class="header-section-number">3.2</span> Forking</a>
+  <li><a href="#cloning" id="toc-cloning" class="nav-link active" data-scroll-target="#cloning"><span class="header-section-number">13.1</span> Cloning</a></li>
+  <li><a href="#forking" id="toc-forking" class="nav-link" data-scroll-target="#forking"><span class="header-section-number">13.2</span> Forking</a>
   <ul class="collapse">
-  <li><a href="#keep-syncing-a-fork-of-a-project" id="toc-keep-syncing-a-fork-of-a-project" class="nav-link" data-scroll-target="#keep-syncing-a-fork-of-a-project"><span class="header-section-number">3.2.1</span> Keep syncing a Fork of a project</a></li>
-  <li><a href="#fork-workflow" id="toc-fork-workflow" class="nav-link" data-scroll-target="#fork-workflow"><span class="header-section-number">3.2.2</span> Fork workflow</a></li>
+  <li><a href="#keep-syncing-a-fork-of-a-project" id="toc-keep-syncing-a-fork-of-a-project" class="nav-link" data-scroll-target="#keep-syncing-a-fork-of-a-project"><span class="header-section-number">13.2.1</span> Keep syncing a Fork of a project</a></li>
+  <li><a href="#fork-workflow" id="toc-fork-workflow" class="nav-link" data-scroll-target="#fork-workflow"><span class="header-section-number">13.2.2</span> Fork workflow</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -160,7 +243,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Forking and cloning</span></h1>
+<h1 class="title"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Forking and cloning</span></h1>
 </div>
 
 
@@ -177,8 +260,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="cloning" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="cloning"><span class="header-section-number">3.1</span> Cloning</h2>
+<section id="cloning" class="level2" data-number="13.1">
+<h2 data-number="13.1" class="anchored" data-anchor-id="cloning"><span class="header-section-number">13.1</span> Cloning</h2>
 <ol type="1">
 <li>Definition</li>
 </ol>
@@ -202,10 +285,11 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="images/Screenshot 2025-07-02 at 02.30.57-01.png" class="img-fluid"></p>
 <p>Source: IBM coursera course on Getting started with Git and Github</p>
 </section>
-<section id="forking" class="level2" data-number="3.2">
-<h2 data-number="3.2" class="anchored" data-anchor-id="forking"><span class="header-section-number">3.2</span> Forking</h2>
+<section id="forking" class="level2" data-number="13.2">
+<h2 data-number="13.2" class="anchored" data-anchor-id="forking"><span class="header-section-number">13.2</span> Forking</h2>
 <ul>
-<li>Modifies or extends a project without affecting the original project</li>
+<li>Creates a copy of a remote repository in GitHub.<br>
+Modifies or extends a project without affecting the original project</li>
 <li>Submit changes to the original repo</li>
 <li>Independently make changes to a project, by submitting a pull request</li>
 <li>Keep a copy of the license</li>
@@ -217,8 +301,8 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p>We can also use RStudio following https://happygitwithr.com/fork-and-clone.html<br>
 </p>
-<section id="keep-syncing-a-fork-of-a-project" class="level3" data-number="3.2.1">
-<h3 data-number="3.2.1" class="anchored" data-anchor-id="keep-syncing-a-fork-of-a-project"><span class="header-section-number">3.2.1</span> Keep syncing a Fork of a project</h3>
+<section id="keep-syncing-a-fork-of-a-project" class="level3" data-number="13.2.1">
+<h3 data-number="13.2.1" class="anchored" data-anchor-id="keep-syncing-a-fork-of-a-project"><span class="header-section-number">13.2.1</span> Keep syncing a Fork of a project</h3>
 <ol type="1">
 <li>Create a local clone of the project <code>git clone URL</code></li>
 <li>Configure GIT to sync the fork (To understand better)</li>
@@ -229,8 +313,8 @@ ul.task-list li input[type="checkbox"] {
 <li>Type <code>git remote add upstream &lt;clone directory&gt;</code></li>
 </ul>
 </section>
-<section id="fork-workflow" class="level3" data-number="3.2.2">
-<h3 data-number="3.2.2" class="anchored" data-anchor-id="fork-workflow"><span class="header-section-number">3.2.2</span> Fork workflow</h3>
+<section id="fork-workflow" class="level3" data-number="13.2.2">
+<h3 data-number="13.2.2" class="anchored" data-anchor-id="fork-workflow"><span class="header-section-number">13.2.2</span> Fork workflow</h3>
 <ol type="1">
 <li>Fork the “Original” Github repo on github webpage</li>
 <li>Clone the new Origin repo to create a local repo</li>
@@ -670,13 +754,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./Commands.html" class="pagination-link" aria-label="Workflow using commands">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Workflow using commands</span></span>
+      <a href="./GitRevert.html" class="pagination-link" aria-label="Git revert">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Git revert</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
       <a href="./GithubProjectManagement.html" class="pagination-link" aria-label="Github projects">
-        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Github projects</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Github projects</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
