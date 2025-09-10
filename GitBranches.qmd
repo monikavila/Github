@@ -23,29 +23,37 @@ When you plan to change the code:
 
 4.  Merge the branches: the two tips of the branch are merged into a new tip that belongs to the original branch that contains the deployable branch.
 
+![Image source: IBM coursera course](images/Screenshot%202025-08-29%20at%2021.03.38.png) \# Git Branching Workflow
 
+1.  Clone the repository `git clone URL`
 
-![Image source: IBM coursera course](images/Screenshot%202025-08-29%20at%2021.03.38.png)
-# Git Branching Workflow
+2.  Create branch `git branch BRANCH_NAME`
 
-1. Clone the repository `git clone URL`
+3.  Switch to the new branch using `git checkout BRANCH_NAME`
 
-2. Create branch `git branch BRANCH_NAME`
+4.  Modify the targeted file
 
-3. Switch to the new branch using `git checkout BRANCH_NAME`
+5.  Check modifications using `git status`
 
-4. Modify the targeted file
-
-5. Check modifications using `git status`
-
-6. Stage changes using `git add FILE_NAME`
+6.  Stage changes using `git add FILE_NAME`
 
 7.  Commit changes using `git commit -m "Message"`
 
-8. Switch back to the main branch using `git checkout main`
+8.  Switch back to the main branch using `git checkout main`
 
-9. Merge branches using `git merge`
+9.  Merge branches using `git merge`
 
 10. Make the changes accessible to the remote repository using `git push -u origin main`
 
-11.  Check if changes have been done using `git status`
+11. Check if changes have been done using `git status`
+
+# Main branch 
+
+In RStudio, we might get instead of main master. 
+To change it:
+
+`usethis::git_default_branch_rename(from = "master", to = "main")`
+
+To configure it as default: 
+
+`usethis::git_default_branch_configure(name ="main")`
