@@ -25,6 +25,7 @@ book:
     - GithubProjectManagement.qmd
     - FileReadme.qmd
     - GitHubCopilot.qmd
+    - WorkingStrategies.qmd
     
 
 bibliography: references.bib

@@ -11,7 +11,7 @@
 4.  Add files to the repository.
 5.  Use the Git pane, there we first click Add,
 6.  Then Commit by opening the Commit window, write the commit message. You can verify the changes there.Then click Commit.
-7.  Now, we initialize a GitHub repository with `use_this::use_github()`. This will create a GitHub repository.
+7.  Now, we initialize a GitHub repository with `usethis::use_github()`. This will create a GitHub repository.
 8.  Changes that have been modified in Github, we use Pull in the Git pane.
 9. If we added files to the local repository, commit, and then push. 
 

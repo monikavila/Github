@@ -1,5 +1,4 @@
 # Work strategies
 
-1. pull before starting to work.  This guarantees. that local and remote repository are synchronized. 
-
-2.Use branches. 
+1.  pull before starting to work. This guarantees. that local and remote repository are synchronized.
+2.  Use branches.
